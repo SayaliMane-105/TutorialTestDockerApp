@@ -1,0 +1,105 @@
+# FRONTEND
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/frontend/tutoApp/dist
+/frontend/tutoApp/tmp
+/frontend/tutoApp/out-tsc
+/frontend/tutoApp/bazel-out
+
+# Node
+/frontend/tutoApp/node_modules
+/frontend/tutoApp/npm-debug.log
+/frontend/tutoApp/yarn-error.log
+
+# IDEs and editors
+/frontend/tutoApp/.idea/
+/frontend/tutoApp/.project
+/frontend/tutoApp/.classpath
+/frontend/tutoApp/.c9/
+/frontend/tutoApp/*.launch
+/frontend/tutoApp/.settings/
+/frontend/tutoApp/*.sublime-workspace
+
+# Visual Studio Code
+/frontend/tutoApp/.vscode/*
+/frontend/tutoApp/!.vscode/settings.json
+/frontend/tutoApp/!.vscode/tasks.json
+/frontend/tutoApp/!.vscode/launch.json
+/frontend/tutoApp/!.vscode/extensions.json
+/frontend/tutoApp/.history/*
+
+# Miscellaneous
+/frontend/tutoApp/.angular/cache
+/frontend/tutoApp/.sass-cache/
+/frontend/tutoApp/connect.lock
+/frontend/tutoApp/coverage
+/frontend/tutoApp/libpeerconnection.log
+/frontend/tutoApp/testem.log
+/frontend/tutoApp/typings
+
+# System files
+/frontend/tutoApp/.DS_Store
+/frontend/tutoApp/Thumbs.db
+
+
+# BACKEND
+
+# compiled output
+/backend/tuto-back/dist
+/backend/tuto-back/node_modules
+/backend/tuto-back/build
+
+# Logs
+/backend/tuto-back/logs
+/backend/tuto-back/*.log
+/backend/tuto-back/npm-debug.log*
+/backend/tuto-back/pnpm-debug.log*
+/backend/tuto-back/yarn-debug.log*
+/backend/tuto-back/yarn-error.log*
+/backend/tuto-back/lerna-debug.log*
+
+# OS
+/backend/tuto-back/.DS_Store
+
+# Tests
+/backend/tuto-back/coverage
+/backend/tuto-back/.nyc_output
+
+# IDEs and editors
+/backend/tuto-back/.idea
+/backend/tuto-back/.project
+/backend/tuto-back/.classpath
+/backend/tuto-back/.c9/
+/backend/tuto-back/*.launch
+/backend/tuto-back/.settings/
+/backend/tuto-back/*.sublime-workspace
+
+# IDE - VSCode
+/backend/tuto-back/.vscode/*
+/backend/tuto-back/!.vscode/settings.json
+/backend/tuto-back/!.vscode/tasks.json
+/backend/tuto-back/!.vscode/launch.json
+/backend/tuto-back/!.vscode/extensions.json
+
+# dotenv environment variable files
+/backend/tuto-back/.env
+/backend/tuto-back/.env.development.local
+/backend/tuto-back/.env.test.local
+/backend/tuto-back/.env.production.local
+/backend/tuto-back/.env.local
+
+# temp directory
+/backend/tuto-back/.temp
+/backend/tuto-back/.tmp
+
+# Runtime data
+/backend/tuto-back/pids
+/backend/tuto-back/*.pid
+/backend/tuto-back/*.seed
+/backend/tuto-back/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/backend/tuto-back/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
